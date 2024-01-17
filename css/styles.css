@@ -42,7 +42,6 @@ main {
     background-color: var(--color-white);
     display: flex;
     flex-direction: column;
-    /* margin-inline: auto; */
     align-items: center;
     max-width: 380px;
     gap: .925rem;
@@ -68,7 +67,7 @@ main {
 
 .card__content {
     align-self: flex-start;
-    padding-inline: 1rem;
+    padding-inline: 1.2rem;
     display: flex;
     flex-direction: column;
     gap: .875rem;
@@ -98,4 +97,10 @@ p {
 h2 {
     color: var(--color-dark);
     letter-spacing: .4px;
+    cursor: pointer;
+    transition: color .3s ease-in;
+}
+
+h2:hover {
+    color: var(--color-primary);
 }
